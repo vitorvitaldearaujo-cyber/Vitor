@@ -1,0 +1,22 @@
+{
+  "name": "Agenda Inteligente",
+  "short_name": "Agenda",
+  "description": "Calendário, tarefas, lembretes, notas e aniversários com alarmes.",
+  "start_url": "./agenda-inteligente.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c1322",
+  "theme_color": "#0c1322",
+  "lang": "pt-BR",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Novo evento", "url": "./agenda-inteligente.html?novo=evento", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "Nova tarefa", "url": "./agenda-inteligente.html?novo=tarefa", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "Nova nota", "url": "./agenda-inteligente.html?novo=nota", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "Novo lembrete", "url": "./agenda-inteligente.html?novo=lembrete", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]}
+  ]
+}
